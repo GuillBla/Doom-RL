@@ -4,7 +4,7 @@ This repository contains the code and resources for training and evaluating Prox
 
 # Preprocessing
 
-* Wrap the DoomGame() environment into a Gym environment
+* Wrap the DoomGame environment into a Gym environment
 * Grayscale the image
 * Reduce the size of the observation image into a 100 x 160 image
 * Trim the lower part of the observation image to remove the infos at the bottom of the screen : 85 x 160 image

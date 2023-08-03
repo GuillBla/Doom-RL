@@ -21,7 +21,7 @@ In the basic scenario, the agent has 3 possible actions : move to the right, mov
 
 I have trained the model for 100000 steps and the model has successfully learnt the optimal policy. Indeed, the agent immediately moves to the direction of the ennemy and shoot when it is the best moment (which ends the level). Here's a visualization of the agent's performance :
 
-![Demo](demo_basic.gif)
+![Demo](demos/demo_basic.gif)
 
 ## Scenario n°2 : Defend the Center
 
@@ -31,7 +31,7 @@ In the Defend the Center scenario, the agent has also 3 possible actions : turn 
 
 I have trained the model for 200000 steps but due to instabilities, the best model I've obtained is the one I trained for 160000 steps. The model captured a good understanding of the environment and is able to aim the ennemies, even the ones that are very far. It is not optimal yet because the trained agent still wastes some ammunition but still performs very well as you can observe :
 
-![Demo](demo_defend_center.gif)
+![Demo](demos/demo_defend_center.gif)
 
 ## Scenario n°3 : Deadly Corridor
 
@@ -47,7 +47,7 @@ Here, to facilitate agent training, I've introduced two new mechanisms : Reward 
 
 I have trained the model for 200000 steps (40000 for each difficulty level). This environment remains much more complex than the previous ones due to the possibility of moving and the higher number of possible actions. Therefore, a lot of hyperparameter tuning was necessary. The trained model is still quite random and does not manage to reach the bonus. I think training for longer and trying new hyperparameters could help. For now, he looks like he shoots around without really being able to distinguish the ennemies from the walls : 
 
-![Demo](demo_deadly_corridor.gif)
+![Demo](demos/demo_deadly_corridor.gif)
 
 # Acknowledgments
 
